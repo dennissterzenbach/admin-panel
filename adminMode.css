@@ -1,0 +1,24 @@
+.adminpanel {
+    position: fixed;
+    padding: 5px;
+    border: 1px;
+    bottom: 100px;
+    left: 0px;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid red;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.adminpanel td,
+.adminpanel th {
+    min-width: 100px;
+    padding: 5px;
+}
+
+.adminMode-helper--changeable {
+    background-color: #ccccda;
+}
